@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.mint-container{
+    width: 100vw;
+    height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    font-size: 1.2rem;
+    
+}
+.mint-parent{
+    width: 50vw;
+    height: 50vh;
+    margin-top: 80px;
+    min-height: 50vh;
+}
+
+.mint-header{
+    width: 50vw;
+    height: 25vh;
+    display: flex;
+    gap: 1rem;
+}
+.header-left{
+    width: 25vw;
+    height: 25vh;
+    background-color: gray;
+}
+
+.header-right{
+    width: 25vw;
+    height: 25vh;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.header-right input{
+    width: 10vw;
+    height: 5vh;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    
+}
+.header-right form select{
+    width: 10vw;
+    height: 5vh;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+   
+}
+
+.mint-footer{
+    width: 50vw;
+    height: 25vh;
+    display: flex;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.footer-left{
+    width: 25vw;
+    height: 25vh;
+}
+
+.footer-right{
+    width: 25vw;
+    height: 25vh;
+    display: flex;
+    flex-direction:column ;
+    gap: 1rem;
+}
+
+.footer-right textarea{
+    width: 15vw;
+    height: 17vh;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+
+}
+
+.mint-btn{
+    width: 7vw;
+    height: 5vh;
+    background-color: #e6ee26;
+    text-align: center;
+    color: black;
+    border: none;
+    font-size: 1rem;
+    outline: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.mint-btn:active{
+    background-color: yellow ;
+}
+.btnn{
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btnn:active{
+    background-color: yellow;
+
+}
+
+@media(max-width:1000px){
+
+.header-right input{
+    width: 100px;
+}
+.header-right form select{
+    width: 100px;
+}
+.footer-right textarea{
+    width: 200px;
+    height: 200px;
+}
+.footer-right button{
+    width: 80px;
+}
+.header-left{
+    width: 60vw;
+    height: 20vh;
+}
+.mint-parent{
+    width: 70vw;
+}
+.header-right{
+    width: 40vw;
+}
+.mint-header{
+    width: 70vw;
+}
+.mint-footer{
+    width: 80vw;
+margin-top: 0;
+}
+.footer-left{
+    width: 30vw;
+}
+}
+@media(max-width:600){
+    .mint-parent{
+        width: 90vw;
+    }
+    .footer-left{
+        width: 25vw;
+    }
+    .footer-right textarea{
+        width: 50px;
+    }
+    .mint-header{
+        width: 90vw;
+    }
+    .mint-footer{
+        width: 90vw;
+       
+    }
+    .footer-left{
+        width: 1vw;
+    }
+    
+}

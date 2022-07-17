@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Josefin+Sans:wght@300&family=Roboto+Mono:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    max-height: 20vh;
+    width: 100vw;
+    background-color: aqua;
+    font-family: 'Baloo Thambi 2', cursive;
+}
+.header-container{
+    max-height: 20vh;
+    width: 100vw;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.nav-links{ 
+    max-height: 18vh;
+    height: 14vh;
+    max-width: 100vw;
+    width: 100vw;
+    
+    background-color:aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    font-family: 'Baloo Thambi 2', cursive;
+}
+.nav-links ul {
+    max-width: 100vw;
+    
+    align-self: center;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin-right:2vw ; 
+    margin-left: 2vw;
+    justify-content: space-around;
+}
+.nav-links ul a {
+    text-decoration: none;
+    color: black;
+
+}
+.btnn2{
+    width: 8vw;
+    height: 7vh;
+    background-color: #e6ee26 ;
+    color: black;
+    text-align: center;
+    border: none;
+    font-family: 'Baloo Thambi 2', cursive;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btnn2:active{
+    background-color: yellow;
+}
+
+
+.nav-links ul img{
+    transform: scale(0.9);
+    
+}
+ @media (max-width:600px){
+    .nav-links {
+        gap: 0.1rem;
+    }
+    .nav-links  ul{
+        margin-right: 10px;
+    }
+    .btnn2{
+        font-size: 0.7rem;
+        width: 80px;
+        height: 35px;
+    }
+ }
+
+
+

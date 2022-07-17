@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@300&family=Inter:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.home-container{
+    max-width: 100vw;
+    width: 100vw;
+    background-color: aliceblue;
+   
+
+}
+
+.home-parent{
+    max-width: 100vw;
+    width: 100vw;
+    max-height:200vh;
+    display: inline-flex;
+    background-color:aliceblue;
+
+}
+.home-right{
+    max-width: 100vw;
+    width: 50vw;
+    height: 100vh;
+    background-color: aliceblue;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+
+.right-items{
+    width: 20vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+padding-top: 2vh;
+justify-content: left;
+background-color: aliceblue;
+
+
+
+
+}
+
+.right-items h1{
+    font-size: 3.5rem;
+    text-align: left;
+    font-family: 'Changa', sans-serif;
+}
+.right-items h2{
+    font-size: 1.7rem;
+    text-align: left;
+    font-family: 'Changa', sans-serif;
+}
+
+.right-items button{
+    width: 10vw;
+    height: 5vh;
+    background-color:#e6ee26 ;
+    border: 0;
+    font-weight: 600;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   
+   
+   
+}
+
+
+.home-left{
+    max-width: 100vw;
+    width: 50vw;
+    height: 100vh;
+    
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+.left-items{
+    margin-top: 3vh;
+    position: relative;
+    right:15vw;
+    font-family: 'Changa', sans-serif;
+}
+
+@media(max-width:450px){
+   
+}
+
+@media(max-width:700px){
+    .home-parent{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 120vh;
+       
+    }
+    .home-right{
+      width: 100vw;
+      
+      
+     
+
+    }
+    .home-left{
+        width: 100vw;
+        max-width: 100vw;
+        height: 80vh;
+        
+    }
+    .home-container{
+        height: 150vh;
+    }
+     
+    .right-items{
+        width: 50vw;
+    
+        height: 20vh;
+        
+    }
+
+    .right-items button{
+        
+        height: 30px;
+    }
+
+}
+
+
+@media (max-width:1000px){
+    .home-parent{
+        display: flex;
+        height: 110vh;
+    }
+
+    .home-right{
+        justify-content: center;
+        padding-left: 10px;
+        align-items: center;
+        height: 40vh;
+        
+    }
+ .home-left{
+       height: 50vh;
+       margin: 20px auto;
+      
+    }
+
+    .right-items{
+        height: 20vh;
+    }
+   
+
+    .left-items{
+        
+        position: relative;
+        left: 1vw;
+        align-items: center;
+        height: 40vh;
+        justify-content: center;
+       
+    }
+    }
+
+   
+    .right-items button{
+        width:120px;
+    }
+
+   
+
+   
+   
+

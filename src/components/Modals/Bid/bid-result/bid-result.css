@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Roboto+Mono:wght@300&display=swap');
+
+.modalBackground {
+    width: auto;
+    height: auto;
+    background-color: rgba(200, 200, 200);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+  
+
+  }
+  
+  .modalContainer8 {
+    width: 300px;
+    height: 300px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+ 
+   
+    font-family: 'Roboto Mono', monospace;
+    
+  }
+  
+  .modalContainer8 .title2 {
+    display: inline-block;
+    text-align: center;
+   
+    color: cadetblue;
+  }
+  
+  .titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  .modalContainer8 .body51 {
+    flex: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.5rem;
+    text-align: center;
+    flex-direction: column;
+    border: none;
+   
+   
+   
+    
+  }
+.body51 p{
+    font-size: 1.5rem;
+}
+ 

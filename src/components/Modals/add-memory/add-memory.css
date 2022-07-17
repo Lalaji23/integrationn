@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Roboto+Mono:wght@300&display=swap');
+
+.modalBackground {
+    width: auto;
+    height: auto;
+    background-color: rgba(200, 200, 200);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+
+  }
+  
+  .modalContainer8 {
+    width: 300px;
+    height: 300px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  .modalContainer8 .title {
+    display: inline-block;
+    text-align: center;
+    margin-top: 5px;
+    color: rgb(34, 95, 46);
+  }
+  
+  .titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  .modalContainer8 .body5 {
+    flex: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.5rem;
+    text-align: center;
+    flex-direction: column;
+    gap: 1rem;
+    border: 1px solid black;
+  }
+.body5 p{
+    font-size: 1.5rem;
+}
+
+.body5 button{
+    width: 100px;
+    height: 30px;
+    background-color: #e6ee26;
+    color: black;
+    font-size: 1rem;
+    border-radius: 6px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+
+}
+ 
